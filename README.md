@@ -1,3 +1,4 @@
+
 # AuctionWebsite
 
 A full-stack auction web application where users can register, list items for auction, place bids, and track their sales — all in real time with countdown timers.
@@ -29,9 +30,7 @@ A full-stack auction web application where users can register, list items for au
 ---
 ## Demo
 
-https://github.com/arjunca24/AuctionWebsite/blob/main/auction_showcase_2x.mp4
-
-> **Note:** To embed the video, upload `auction_showcase_2x.mp4` to this repository and replace the link above with the URL GitHub gives you after uploading.
+[https://github.com/arjunca24/AuctionWebsite/blob/main/auction_showcase_2x.mp4](https://github.com/user-attachments/assets/18541a80-e4e1-462c-8d94-b2e0d22d6f0b)
 
 ---
 
