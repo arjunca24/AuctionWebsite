@@ -27,10 +27,11 @@ A full-stack auction web application where users can register, list items for au
 | Auth | bcrypt / bcryptjs |
 
 ---
+## Demo
 
-## Screenshots
+https://github.com/arjunca24/AuctionWebsite/blob/main/auction_showcase_2x.mp4
 
-> *(Add screenshots here)*
+> **Note:** To embed the video, upload `auction_showcase_2x.mp4` to this repository and replace the link above with the URL GitHub gives you after uploading.
 
 ---
 
@@ -52,8 +53,7 @@ A full-stack auction web application where users can register, list items for au
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/auction-website.git
-cd auction-website
+git clone https://github.com/arjunca24/AuctionWebsite.git
 
 # Install dependencies
 npm install
@@ -79,17 +79,6 @@ server.js             # Express API server (runs on port 999)
 
 ---
 
-## API Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/api` | Generic SELECT query |
-| POST | `/bid` | Place a bid |
-| POST | `/create` | Create an auction |
-| POST | `/register` | Register a new user |
-| POST | `/update` | Update auction fields |
-
----
 
 ## Author
 
