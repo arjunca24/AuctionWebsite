@@ -1,0 +1,87 @@
+<section class="section">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h1 class="text-big">
+                    7 Best Tips To Speed Up Your Job
+                    Search in 2022
+                </h1>
+                <p class="text-small">
+                    First
+                </p>
+            </div>
+        </div>
+    </section>
+
+<div class="rightNav">
+            <input
+                type="text"
+                name="search"
+                id="search"
+            />
+            <button class="btn btn-sm">
+                Search
+            </button>
+        </div>
+
+<div>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo">
+                <img src=
+"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210420155809/gfg-new-logo.png"
+                />
+            </div>
+            <li>
+                <a href="#courses">Courses</a>
+            </li>
+            <li>
+                <a href="#tutorials">Tutorials</a>
+            </li>
+            <li>
+                <a href="#jobs">Jobs</a>
+            </li>
+            <li>
+                <a href="#student">Student</a>
+            </li>
+        </ul>
+
+        
+    </nav>
+
+    
+    <footer className="footer">
+        <p className="text-footer">
+            Footer
+        </p>
+    </footer>
+</div>
+
+// <span className="checkmark"></span>All
+
+const fetchData = async(values,table,conditions) => {
+  
+    const Data = await fetch('/api', {
+       method:'POST',
+       mode: 'cors',
+       headers:{
+       'Content-Type': 'application/json',
+       'Accept': 'application/json'
+       },        
+      body: JSON.stringify({values: values,
+                            table: table,
+                            conditions: conditions})
+       }).then(res => res.json())
+   
+   return Data.record
+     } 
+     
+<span className="total-reviews">100 reviews</span>
+//calls.selectFrom("*","Users","").then(res => {
+    //    console.log(res) })
+    //console.log(Select("*","Auction","1=1")) //or add WHERE into conditions
+    
+    async function Select (values,table,conditions){
+      x = await calls.selectFrom(values,table,conditions).then(res => {return res})
+      console.log(x)
+      return x
+    }
