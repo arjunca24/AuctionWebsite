@@ -1,8 +1,7 @@
 
 # AuctionWebsite
 
-A full-stack auction web application where users can register, list items for auction, place bids, and track their sales — all in real time with countdown timers.
-
+A full-stack auction website (React, Node.js, Express, SQL Server) — users can register, list items, place bids with live countdown timers, and track sales via an analytics dashboard.
 ---
 
 ## Features
